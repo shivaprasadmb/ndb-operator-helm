@@ -25,4 +25,4 @@ annotations:
   artifacthub.io/prerelease: "false"
   artifacthub.io/images: |
     - name: mrshivaprasad/ndb-operator-test
-      image: mrshivaprasad/ndb-operator-test:v0.5.1-go1.22.4
+      image: mrshivaprasad/ndb-operator-test:v0.5.1-go1.22.4@sha256:1ccab62e0cd048f1873d7bebd733b0eadeaed01c08ea780b3ba76832c5337ffb

@@ -12,7 +12,7 @@ entries:
       artifacthub.io/containsSecurityUpdates: "true"
       artifacthub.io/images: |-
         - name: mrshivaprasad/ndb-operator-test
-          image: mrshivaprasad/ndb-operator-test:v0.5.1-go1.22.4
+          image: mrshivaprasad/ndb-operator-test:v0.5.1-go1.22.4@sha256:1ccab62e0cd048f1873d7bebd733b0eadeaed01c08ea780b3ba76832c5337ffb
       artifacthub.io/license: Apache-2.0
       artifacthub.io/maintainers: |
         - name: Shivaprasad M B
@@ -22,9 +22,9 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-01-14T12:48:26.162488+05:30"
+    created: "2026-01-14T14:30:16.24317+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
-    digest: 84f9c15c75c6a0104b48b3c9c059b80667f31845f6480120585bc5ca627c9472
+    digest: 98ee1c081e760c8432a61dd283923e2df1b372ced7804b2af0f7ee8514afedc1
     maintainers:
     - email: shivaprasad.mb@nutanix.com
       name: Shivaprasad M B
@@ -51,7 +51,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-01-14T12:48:26.161756+05:30"
+    created: "2026-01-14T14:30:16.24222+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: f8cf5c85fc66eae55fb8c586f38b434d91eed388bb67e2708fbd651538c8a9f5
     maintainers:
@@ -91,4 +91,4 @@ entries:
     urls:
     - https://mrshivaprasad.github.io/ndb-operator-helm/ndb-operator-test-v0.5.1-go1.22.4.tgz
     version: v0.5.1-go1.22.4
-generated: "2026-01-14T12:48:26.161155+05:30"
+generated: "2026-01-14T14:30:16.241692+05:30"
