@@ -26,3 +26,5 @@ annotations:
   artifacthub.io/images: |
     - name: mrshivaprasad/ndb-operator-test
       image: mrshivaprasad/ndb-operator-test:0.5.1-1.22.4
+    - name: kube-rbac-proxy
+      image: gcr.io/kubebuilder/kube-rbac-proxy:v0.16.0
