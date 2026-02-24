@@ -2,19 +2,17 @@ apiVersion: v2
 name: ndb-operator-test
 description: A Helm chart for Nutanix Database Kubernetes Operator
 type: application
-version: 0.5.5
+version: 0.5.8
 appVersion: v0.5.1
 maintainers:
   - name: Shivaprasad M B
     email: shivaprasad.mb@nutanix.com
 annotations:
   artifacthub.io/changes: |
-    - kind: fixed
-      description: "Upgraded internal dependencies."
+    - kind: changed
+      description: "Updated ndb-operator image to mrshivaprasad/ndb-operator-test:ns"
     - kind: security
-      description: "Upgraded kube-rbac-proxy from v0.15.0 to v0.16.0."
-    - kind: added
-      description: "test release for security analysis"
+      description: "Upgraded kube-rbac-proxy from v0.16.0 to v0.20.2."
   artifacthub.io/containsSecurityUpdates: "true"
   artifacthub.io/license: Apache-2.0
   artifacthub.io/maintainers: |
@@ -25,6 +23,6 @@ annotations:
   artifacthub.io/prerelease: "false"
   artifacthub.io/images: |
     - name: mrshivaprasad/ndb-operator-test
-      image: mrshivaprasad/ndb-operator-test:0.5.1-1.22.4
+      image: mrshivaprasad/ndb-operator-test:ns
     - name: kube-rbac-proxy
-      image: gcr.io/kubebuilder/kube-rbac-proxy:v0.16.0
+      image: quay.io/brancz/kube-rbac-proxy:v0.20.2
