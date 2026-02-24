@@ -4,7 +4,7 @@ image:
   repository: mrshivaprasad/ndb-operator-test
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "ns"
+  tag: "ns-2"
 
 imagePullSecrets: []
 nameOverride: ""
