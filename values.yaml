@@ -1,14 +1,14 @@
 replicaCount: 1
 
-# kube-rbac-proxy image (Bitnami image with digest for CVE-hardened build)
+# kube-rbac-proxy image
 kubeRbacProxy:
-  image: bitnami/kube-rbac-proxy@sha256:696e043fa27df8076bbe0581c924b79938509d26c0bd98cbde8d0b3c7def527c
+  image: quay.io/brancz/kube-rbac-proxy:v0.21.0
 
 image:
   repository: mrshivaprasad/ndb-operator-test
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "db-fix"
+  tag: "rbac-0.21.0"
 
 imagePullSecrets: []
 nameOverride: ""
