@@ -4,6 +4,35 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: "Updated controller image to ghcr.io/nutanix-cloud-native/ndb-operator/controller:v0.5.3."
+      artifacthub.io/images: |-
+        - name: ndb-operator-controller
+          image: ghcr.io/nutanix-cloud-native/ndb-operator/controller:v0.5.3
+        - name: kube-rbac-proxy
+          image: quay.io/brancz/kube-rbac-proxy:v0.21.0
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/maintainers: |
+        - name: Shivaprasad M B
+          email: shivaprasad.mb@nutanix.com
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Basic Install
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: v0.5.3
+    created: "2026-03-03T23:37:59.558703+05:30"
+    description: A Helm chart for Nutanix Database Kubernetes Operator
+    digest: 5ae092d64ebaea47731e9b744ea8a5651caa8785980a1ffe536eb7f1d5da88f2
+    maintainers:
+    - email: shivaprasad.mb@nutanix.com
+      name: Shivaprasad M B
+    name: ndb-operator-test
+    type: application
+    urls:
+    - https://shivaprasadmb.github.io/ndb-operator-helm/ndb-operator-test-0.5.13.tgz
+    version: 0.5.13
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: "Updated ndb-operator image to mrshivaprasad/ndb-operator-test:rbac-0.21.0."
         - kind: security
           description: "Upgraded kube-rbac-proxy to quay.io/brancz/kube-rbac-proxy:v0.21.0."
@@ -21,7 +50,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-03-03T12:49:10.47207+05:30"
+    created: "2026-03-03T23:37:59.558312+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 8326dffd571069381c1e3e50c45e56e660913468f8bb617f3fe6493e9c73e9c1
     maintainers:
@@ -50,7 +79,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-03-03T12:49:10.459468+05:30"
+    created: "2026-03-03T23:37:59.544832+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 518b02b952b420c79e2f9c571d544bfe62efb7e7e32d64808d27c258110f59ff
     maintainers:
@@ -82,7 +111,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-03-03T12:49:10.453156+05:30"
+    created: "2026-03-03T23:37:59.538793+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 644d7555e85cdc9f1ec3d06304f3a903207ac160ab5e9ace80282ea3ceb0cd7d
     maintainers:
@@ -114,7 +143,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-03-03T12:49:10.477487+05:30"
+    created: "2026-03-03T23:37:59.566696+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: a132f20d632c879fb222e3b33f1d6b5f61fdc2b8800d3cbc6adb62879901cc28
     maintainers:
@@ -146,7 +175,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-03-03T12:49:10.47538+05:30"
+    created: "2026-03-03T23:37:59.564+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 0970abc7cd148aaa62b50c189df553313ce655ca9a4851654d00dd9be32f6b89
     maintainers:
@@ -178,7 +207,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-03-03T12:49:10.474174+05:30"
+    created: "2026-03-03T23:37:59.561872+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: c51b1b01ad2005bd9879b60cb489dedb18009a5b128e9d68d26bb9bcd715aae3
     maintainers:
@@ -210,7 +239,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-03-03T12:49:10.473418+05:30"
+    created: "2026-03-03T23:37:59.560689+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 59babb9b3488010c5b56cf0e820677570ec19aa0fef080f9f5c4f67dd02ea1ca
     maintainers:
@@ -239,7 +268,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.1
-    created: "2026-03-03T12:49:10.472585+05:30"
+    created: "2026-03-03T23:37:59.559439+05:30"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: f8cf5c85fc66eae55fb8c586f38b434d91eed388bb67e2708fbd651538c8a9f5
     maintainers:
@@ -250,4 +279,4 @@ entries:
     urls:
     - https://shivaprasadmb.github.io/ndb-operator-helm/ndb-operator-test-0.5.3-test.tgz
     version: 0.5.3-test
-generated: "2026-03-03T12:49:10.44887+05:30"
+generated: "2026-03-03T23:37:59.532191+05:30"

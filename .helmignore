@@ -21,3 +21,5 @@
 .idea/
 *.tmproj
 .vscode/
+# Chart repo (do not bundle into the chart package)
+docs/

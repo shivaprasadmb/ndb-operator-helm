@@ -5,10 +5,10 @@ kubeRbacProxy:
   image: quay.io/brancz/kube-rbac-proxy:v0.21.0
 
 image:
-  repository: mrshivaprasad/ndb-operator-test
+  repository: ghcr.io/nutanix-cloud-native/ndb-operator/controller
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "rbac-0.21.0"
+  tag: "v0.5.3"
 
 imagePullSecrets: []
 nameOverride: ""
